@@ -1,0 +1,11 @@
+This is the actual hand written read me by conner for later running and notes
+
+much of the project was done by copying edje electronics video called "how to run yolo object detection models on the raspberry pi"
+and also "how to train yolo object detection models in google colab (yolo11,yolov8, yolov5)"
+
+
+to start up the code:
+1. go to the yolo folder
+2. run: source venv/bin/activate
+3. run: python detect_goosev2.py --model=goose11s_ncnn_model --source=picamera0 --resolution=1280x720
+or for usb camera: python detect_goosev2.py --model=goose11s_ncnn_model --source=usb0 --resolution=1280x720
